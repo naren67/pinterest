@@ -1,0 +1,99 @@
+.header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        
+          padding: 18px 20px;
+}
+
+.header__logoColor{
+          color: #E60023;
+}
+
+.header__left{
+          display: flex;
+          align-items: center;
+          padding-right: 12px;
+}
+
+.header__logo{
+          margin-right: 20px;
+}
+
+.header__homeButton{
+          border: 1px solid black;
+          background: black;
+          color: white;
+          padding: 8px 12px;
+          border-radius: 25px;
+          font-weight: bold;
+          font-size: 18px;
+          margin-right: 15px;
+          cursor: pointer;
+}
+
+.header__TodayButton{
+          font-size: 18px;
+          font-weight: bold;
+          cursor: pointer;
+          padding: 8px 12px;
+          border-radius: 25px;
+          transition: 0.5s ease;
+          display: flex;
+          align-items: center;
+}
+
+.header__TodayButton:hover{
+          background: gainsboro;
+}
+
+.header__searchBar{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 9px;
+          background: rgba(220, 220, 220, 0.544);
+          border-radius: 25px;
+          
+}
+
+.header__searchIcon{
+          margin-top: 4px;
+          margin-left: 8px;
+}
+
+.header__searchBar input{
+          display: flex;
+          width:400px;
+          height: 30px;
+          outline: none;
+          border: none;
+          background: rgba(220, 220, 220, 0);
+          margin-left: 10px;
+          font-size: 16px;
+}
+
+.header__Icons{
+          display: flex;
+          align-items: center;
+          color: gray;
+}
+
+.header__bell{
+       margin-left: 20px;
+       cursor: pointer;
+}
+
+.header__message{
+          margin-left: 20px;
+          cursor: pointer;
+}
+
+.header__account{
+          margin-left: 20px;
+          cursor: pointer;
+}
+
+.header__input button{
+      display: none;
+}

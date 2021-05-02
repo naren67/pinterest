@@ -1,0 +1,31 @@
+.mainboard{
+          height: auto;
+          width: 100%;
+          margin: 0px auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.mainboard__container{
+          height: auto;
+          /* margin-left: auto;
+          margin-right: auto; */
+          /* display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin: auto; */
+          column-count: 6;
+          column-gap: 15px;
+          row-gap: 10px;
+          max-width: 1500px;
+}
+
+.mainboard__wrapper p{
+          font-size: 18px;
+          opacity: 0.3;
+          background: rgba(220, 220, 220, 0.625);
+          display: inline-block;
+          padding: 8px 10px;
+          border-radius: 25px;
+}
